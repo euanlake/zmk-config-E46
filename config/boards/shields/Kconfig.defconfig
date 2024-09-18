@@ -1,0 +1,6 @@
+if SHIELD_E46
+
+config ZMK_KEYBOARD_NAME
+    default "E46"
+
+endif
