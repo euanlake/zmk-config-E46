@@ -10,6 +10,15 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        fullstop {
+            bindings = <&kp LG(LS(PERIOD))>;
+            key-positions = <33>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
